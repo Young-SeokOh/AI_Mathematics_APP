@@ -1,6 +1,53 @@
 import streamlit as st
 
-st.title("🎈 My new app")
-st.write(
-    "Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
-)
+st.title("🤖 인공지능 수학 소개")
+
+st.header("인공지능 수학이란?")
+
+st.write("""
+인공지능(AI) 수학은 인공지능 시스템의 기반이 되는 수학적 개념과 기법을 다루는 분야입니다. 
+AI의 발전은 수학적 이론과 알고리즘에 크게 의존하며, 데이터 분석, 패턴 인식, 예측 모델링 등에 필수적입니다.
+""")
+
+st.header("주요 개념")
+
+st.subheader("1. 선형 대수 (Linear Algebra)")
+st.write("""
+벡터, 행렬, 텐서 등의 개념을 사용하여 데이터를 표현하고 변환합니다. 
+신경망의 가중치 계산과 데이터 변환에 핵심적입니다.
+""")
+
+st.subheader("2. 확률론과 통계 (Probability and Statistics)")
+st.write("""
+불확실성을 다루는 확률 이론과 데이터 분석을 위한 통계 기법입니다. 
+머신러닝 모델의 학습과 예측 정확도를 평가하는 데 사용됩니다.
+""")
+
+st.subheader("3. 최적화 (Optimization)")
+st.write("""
+함수의 최솟값이나 최댓값을 찾는 기법으로, AI 모델의 학습 과정에서 손실 함수를 최소화하는 데 필수적입니다.
+""")
+
+st.subheader("4. 미적분학 (Calculus)")
+st.write("""
+변화율과 적분 개념을 통해 모델의 기울기 계산과 경사 하강법 등에 적용됩니다.
+""")
+
+st.header("응용 분야")
+
+st.write("""
+- **머신러닝**: 회귀 분석, 분류, 클러스터링
+- **딥러닝**: 신경망 구조와 역전파 알고리즘
+- **자연어 처리**: 텍스트 분석과 언어 모델링
+- **컴퓨터 비전**: 이미지 인식과 처리
+- **강화 학습**: 의사결정과 최적화 문제
+""")
+
+st.header("왜 중요한가?")
+
+st.write("""
+AI 수학은 AI 시스템의 정확성과 효율성을 결정짓는 핵심 요소입니다. 
+수학적 이해 없이는 AI 모델의 동작 원리를 파악하고 개선하기 어렵습니다.
+""")
+
+st.info("더 자세한 내용을 배우고 싶다면, 관련 서적이나 온라인 코스를 추천합니다!")
